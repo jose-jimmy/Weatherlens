@@ -154,6 +154,8 @@ body{
   height: 6px;/*For horizontal scrollbar*/
 }
 
+
+
 ::-webkit-scrollbar-thumb{
   background-color: var(--white-alpha-8);
   border-radius: var(--radius-pill);
@@ -340,6 +342,19 @@ body{
 
 .label-2{
   font-size: var(--label-2);
+}
+
+.fade-in{
+  animation: fade-in 250ms ease forwards;
+}
+
+@keyframes fade-in{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
 
 
@@ -719,11 +734,16 @@ article.container::before{
 
 .slider-container{
   overflow-x: auto;
-  margin-inline: -16px;
+  margin-inline: 16px;
 }
 
 .slider-container::-webkit-scrollbar{
   display: none;
+}
+
+/*hide scrollbar for firefox */
+.slider-container{
+  scrollbar-width: none;
 }
 
 .slider-list{

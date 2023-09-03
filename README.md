@@ -1,7 +1,7 @@
 
 # Weathelens
 
-Weatherlens is a weather app with advanced features and UI designs.
+Weatherlens is a weather app with advanced features and modern UI design.
 
 ## Tech Stack
 

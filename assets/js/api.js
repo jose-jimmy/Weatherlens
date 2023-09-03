@@ -1,11 +1,11 @@
 "use strict";
+import api_key from "./apikey.js";
 
 /**
  * Fetch data from server
  * @param {string} URL API url
  * @param {Function} callback callback
  */
-
 export const fetchData = function (URL, callback) {
   fetch(`${URL}&appid=${api_key}`)
     .then((res) => res.json())
