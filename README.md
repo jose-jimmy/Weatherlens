@@ -1,44 +1,59 @@
-
-# Weathelens
+[![Netlify Status](https://api.netlify.com/api/v1/badges/67e4b956-d2fb-4984-9e6b-19da09b1db40/deploy-status)](https://app.netlify.com/sites/weatherlens-josjimmy/deploys)
+# Weathelens ❄️
 
 Weatherlens is a weather app with advanced features and modern UI design.
 
-## Tech Stack
+## Tech Stack 🛠️
 
 **Client:** HTML, CSS, JavaScript, API
 
-## Demo
+## Demo 🚀
 
-Insert gif or link to demo
+[Weatherlens](https://weatherlens-josjimmy.netlify.app/)
 
-## Features
+![Video demo](./assets/images/screen-capture.gif)
 
-- Feature 1
-- Feature 2
-- Feature 3
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](./assets/images/Screenshot%20Desktop%201.png)
+
+![App Screenshot](./assets/images/Screenshot%20Desktop%202.png)
+
+![App Screenshot](./assets/images/Screenshot%20tablet.png)
+
+![App Screenshot](./assets/images/Screenshot%20mobile.png)
 
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/jose-jimmy/Weatherlens.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd Weatherlens
 ```
 
 Open with VSCode
 
 ```bash
   code .
+```
+
+Create a Openweather API key
+
+```bash
+  https://openweathermap.org/api
+```
+
+Create a file called apikey and store the api value
+
+```bash
+   cd assets/js && echo -e "const api_key = '{your_apikey}';\n\nexport default api_key;" > apikey.js
 ```
 
 Open with live server
