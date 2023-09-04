@@ -53,7 +53,7 @@ Create a Openweather API key
 Create a file called apikey and store the api value
 
 ```bash
-   cd assets/js && echo -e "const api_key = '{your_apikey}';\n\nexport default api_key;" > apikey.js
+   cd assets/js && echo -e "const api_key = 'your_apikey';\n\nexport default api_key;" > apikey.js
 ```
 
 Open with live server
