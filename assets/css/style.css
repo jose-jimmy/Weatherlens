@@ -866,7 +866,7 @@ article.container::before{
 
 /**Responsive for large than 768px screen**/
 
-@media (min-width: 760px){
+@media (min-width: 768px){
   /*Reused style*/
 
   .container{
